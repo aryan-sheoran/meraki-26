@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import heroImage from '../assets/iiitu.webp';
+import Faq from './Faq';
 
 const Hero = () => {
     return (
-        <section className="relative h-screen w-full overflow-hidden bg-black">
+        <section className="relative h-screen w-full overflow bg-black">
             {/* Background Image with Parallax-like Scale */}
             <motion.div
                 className="absolute inset-0 z-0"
@@ -72,6 +73,7 @@ const Hero = () => {
                     </div>
                 </motion.div>
             </div>
+                    <Faq></Faq>
         </section>
     );
 };
