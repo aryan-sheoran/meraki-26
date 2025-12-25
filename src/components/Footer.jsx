@@ -357,7 +357,7 @@ const Footer = () => {
 
           {/* Vertical dashed divider (desktop only) */}
           <div
-            className="hidden sm:block h-16 md:h-20 mx-4 md:mx-8"
+            className="hidden sm:block h-16 md:h-20 mx-4 md:mx-1"
             style={{
               borderLeft: "2px dashed rgba(255, 255, 255, 0.3)",
             }}
